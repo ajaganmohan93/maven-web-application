@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Programming Language</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
+		<name>Jagan Technologies</name>
+		<url>http://jaganologies.com/</url>
 	</organization>
 
 	<properties>
@@ -96,15 +96,15 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.158.86:9980/mithuntechnologies/repository/facebook-release/</url>
+	      <id>JFrog</id>
+	      <name>Jagan Technologies Releases JFrog Repository</name>
+	      <url>http://3.136.87.132:8082/artifactory/wallmart-realeses/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.158.86:9980/mithuntechnologies/repository/facebook-snapshot/</url>
+	      <id>JFrog</id>
+	      <name>Jagann Technologies Snapshot Nexus Repository </name>
+	      <url>http://3.136.87.132:8082/artifactory/wallmart-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
