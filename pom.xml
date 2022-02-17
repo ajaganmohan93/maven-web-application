@@ -4,16 +4,16 @@
 	
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
-	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	
 	<name>maven-web-application</name>
 
-	<description>Maven Web Project for Java Project</description>
+	<description>Maven Web Project for Java Programming Language</description>
 
 	<organization>
-		<name>Jagann Technologies</name>
-		<url>http://jagantechnologies.com/</url>
+		<name>Mithun Technologies</name>
+		<url>http://mithuntechnologies.com/</url>
 	</organization>
 
 	<properties>
@@ -22,9 +22,9 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://18.220.74.237:9000/</sonar.host.url>
-                <sonar.login>0c8c1beefe45dcd7731472a07822c947db030ae1</sonar.login>
                 <sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password> 
+		<sonar.password>passw0rd</sonar.password>
+             
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -38,7 +38,7 @@
 			<version>20160212</version>
 		</dependency>
 		
-		test dependencies
+		<!-- test dependencies -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -60,7 +60,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		compile dependencies
+		<!-- compile dependencies -->
 
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -83,7 +83,7 @@
 			<version>${spring.version}</version>
 		</dependency>
 		
-		provided dependencies
+		<!-- provided dependencies -->
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
+	      <url>http://13.233.158.86:9980/mithuntechnologies/repository/facebook-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
+	      <url>http://13.233.158.86:9980/mithuntechnologies/repository/facebook-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
