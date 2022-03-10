@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
+<title>Jagan Mohan Apathi- Home Page</title>
 <link href="images/jagan.jpg" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Jagan Software Solutions. </h1>
-<h1 align="center"> Jagan Software Solutions </h1>
+<h1 align="center">Welcome to Jagan . </h1>
+<h1 align="center"> Jagan  </h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
@@ -31,10 +31,10 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/jagan.jpg" alt="" width="100">
+		<img src="images/jagan.jpg" alt="" width="200">
 	</span>
 	<span style="font-weight: bold;">
-		Jagan Technologies, 
+		Jagan Mohan, 
 		+91-7207512700
 		ajaganmohan93@gmail.com
 		<br>
@@ -44,8 +44,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Jagann Technologies.</p>
-<p align=center><small>Copyrights 2019 by <a href="http://jagantechnologies.com/">Jagan Technologies</a> </small></p>
+<p align=center>Jagan.</p>
 
 </body>
 </html>
